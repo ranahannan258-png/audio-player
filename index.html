@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Music Player</h2>
+    </div>
+    <div class="container">
+
+        <div class="right">
+            <div class="image">
+                <img height="180" src="assets/download (1).jpg">
+            </div>
+            <div class="name">
+                song1
+            </div>
+            <input type="range" value="0" min="0" max="100" id="bar">
+
+            <div class="player">
+                <span class="back"><img src="assets/icons8-backward-50.png" height="16px"></span>
+                <span class="play"><img src="assets/icons8-play-50.png" height="20px"></span>
+                <span class="farward"><img src="assets/icons8-forward-50.png" height="22px"></span>              
+            </div>
+            <div class="time">
+                <span class="current"></span>
+                <span class="final"></span>
+            </div>
+
+            <div class="volume-container">
+                <span class="volume-icon"><img src="assets/icons8-volume-50.png" height="20px"></span>
+                <input type="range" value="0.1" min="0" max="1" step="0.01" id="volume">
+            </div>
+        </div>
+
+        <div class="left"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
