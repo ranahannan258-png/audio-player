@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+h4 {
+    color: #2C3E50;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: #1DB954;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+    background-color: #121212;
+    padding-top: 50px;
+}
+
+.image {
+    height: 180px;
+    aspect-ratio: 1;
+    /* background-color: blue; */
+    margin: auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.image img {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    color: #000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+#bar {
+    height: 4px;
+    width: 90%;
+    display: flex;
+    margin: 30px auto;
+    accent-color: #1DB954;
+    cursor: pointer;
+}
+
+.player {
+    background-color: #282828;
+    height: 50px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player span {
+    margin: 0 10px;
+}
+
+span img {
+    color: #FFFFFF;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.farward,
+.back,
+.volume-icon,
+.play {
+    cursor: pointer;
+}
+
+#volume {
+    width: 40%;
+    height: 4px;
+    display: flex;
+    accent-color: #1DB954;
+    cursor: pointer;
+}
+
+.left {
+    width: 30%;
+    background-color: #181818;
+}
+
+.details {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.details:hover {
+    background-color: #1DB954;
+}
+
+.details img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.details p {
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.time{
+    width: 78%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.final,.current {
+    color: #FFFFFF;
+}
